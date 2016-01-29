@@ -3,7 +3,7 @@ Is a simple wrapper for the TinyDatePicker. Through frustration of not finding a
 play nice with mobile devices this was put together to save others the time and frustrations.
 
 ##Install
-`meteor add jrod:react-datepicker`
+`meteor add lesshardtoofind:react-datepicker`
 
 ##Use
 ```
