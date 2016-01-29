@@ -1,13 +1,6 @@
 DatePicker = React.createClass({
-
-  statics: {
-    getDate() {
-      return document.getElementById(this.id).value;
-    }
-  },
-
   propTypes: {
-    data: React.PropTypes.object,
+    defaultDate: React.PropTypes.string,
   },
 
   getInitialState() {
@@ -17,6 +10,10 @@ DatePicker = React.createClass({
 
   componentDidMount() {
     Tiny(document.getElementById(this.id));
+  },
+
+  getDate() {
+    return document.getElementById(this.id).value;
   },
 
   getCurrentDate() {
